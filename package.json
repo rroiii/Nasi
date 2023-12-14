@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "build": "tailwindcss -o public/css/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
