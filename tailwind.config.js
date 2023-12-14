@@ -8,9 +8,9 @@ module.exports = {
     "./views/**/*.{html,js}"
   ],
   //safelist: [
-  //  {
-  //    pattern: /./, // the "." means "everything"
-  //  },
+   //{
+   //  pattern: /./, // the "." means "everything"
+   //},
   //],
   theme: {
     extend: {
