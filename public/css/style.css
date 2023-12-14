@@ -38,3 +38,20 @@
     padding: 2rem;
     text-align: center;
   }
+/* Apply a base padding-top value */
+.div-padding-responsive {
+  padding-top: 5rem; /* base size */
+}
+
+/* Increase padding-top based on the height of the viewport */
+@media screen and (max-height: 800px) {
+  .div-padding-responsive {
+    padding-top: 4rem; /* smaller size for smaller heights */
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .div-padding-responsive {
+    padding-top: 3rem; /* even smaller size for even smaller heights */
+  }
+}

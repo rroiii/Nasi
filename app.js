@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'home.html'));
 });
 
+// Define a route for the root of the app
+app.get('/tes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'tes.html'));
+});
 
 // Start the server
 app.listen(PORT, () => {
