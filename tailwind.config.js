@@ -2,15 +2,10 @@
 const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: [
-    "./views/**/*.{html,ejs}", // Sesuaikan dengan ekstensi file yang Anda gunakan di views
-    "./views/*.{html,ejs}", // Sesuaikan dengan ekstensi file yang Anda gunakan di views
+    "./views/**/*.{html,ejs,css}", // Sesuaikan dengan ekstensi file yang Anda gunakan di views
+    "./views/*.{html,ejs,css}", // Sesuaikan dengan ekstensi file yang Anda gunakan di views
     "./public/js/**/*.js",
     "./views/**/*.{html,js}"
-  ],
-  safelist: [
-    {
-      pattern: /./, // the "." means "everything"
-    },
   ],
   theme: {
     extend: {
