@@ -7,11 +7,11 @@ module.exports = {
     "./public/js/**/*.js",
     "./views/**/*.{html,js}"
   ],
-  //safelist: [
-   //{
-   //  pattern: /./, // the "." means "everything"
-   //},
-  //],
+  // safelist: [
+  //  {
+  //   pattern: /./, // the "." means "everything"
+  //  },
+  // ],
   theme: {
     extend: {
       fontFamily: {
