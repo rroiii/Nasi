@@ -1,6 +1,6 @@
 
 .gradient-background {
-    min-height: 50vh;
+    min-height: 200vh;
     background: linear-gradient(to top, #957135, #DFBC6A);
   }
 
@@ -24,7 +24,8 @@
     position: relative;
     color: white;
     text-align: center;
-    padding: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
     z-index: 10;
   }
   .navbar a:hover {
