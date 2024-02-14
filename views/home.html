@@ -7,97 +7,110 @@
       <link href="/css/output.css" rel="stylesheet">
       <link href="/css/style.css" rel="stylesheet">
    </head>
-   <body>
+   <body class="bg-white">
       <div class="grid grid-cols-1 auto-rows-auto gap-0">
-         <div class="image-container bg-cover bg-center z-10 flex flex-col relative h-auto" >
-            <nav class="sticky top-0 z-50 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 font-heading text-xl text-green px-4 pt-1">
-               <div class="container mx-auto flex justify-center items-center py-4">
-                  <div class="space-x-24">
-                     <a href="#" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">Home</a>
-                     <a href="#" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">How It Works</a>
-                     <a href="#" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">Map</a>
-                  </div>
+
+         <nav class="sticky top-0 z-50 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 font-heading text-xl text-green px-4 pt-1">
+            <div class="container mx-auto flex justify-center items-center py-4">
+               <div class="space-x-24">
+                  <a href="#Home" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">Home</a>
+                  <a href="#Works" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">How It Works</a>
+                  <a href="#Map" class="text-green-500 text-xl hover:text-gold-light hover:font-bold">Map</a>
                </div>
-            </nav>
-            <div class="content-overlay z-25 text-center flex flex-col justify-center items-center pt-48 h-auto">
-               <img src="./images/nasi-low.png" width="400" clas="mb-6">
-               <h1 class="text-5xl font-bold font-heading text-green mb-3 w-7/12">Nourishment Alert and Surveillance Interface</h1>
-               <h2 class="text-xl font-heading w-1/2">Food security in West Java, Indonesia, becomes a critical issue amid rapid population growth and intensive agricultural land conversion. Utilizing deep learning and Artificial Neural Network (ANN) technologies, this analysis models the change in land cover from 2020 to 2032 and predicts population growth in the same period. The aim is to assist in ensuring future food security through strategies that take into account population dynamics and changes in agricultural land area, as well as providing a basis for effective policies in maintaining sustainable food supply in the region.</h2>
             </div>
-         </div>
+         </nav>
+
+         <section id="Home">
+            <div class="image-container bg-cover bg-center z-10 flex flex-col relative h-auto" >
+               <div class="content-overlay z-25 text-center flex flex-col justify-center items-center pt-48 h-auto">
+                  <img src="./images/nasi-low.png" width="400" clas="mb-6">
+                  <h1 class="text-5xl font-bold font-heading text-green mb-3 w-7/12">Nourishment Alert and Surveillance Interface</h1>
+                  <h2 class="text-xl font-heading w-1/2">Food security in West Java, Indonesia, becomes a critical issue amid rapid population growth and intensive agricultural land conversion. Utilizing deep learning and Artificial Neural Network (ANN) technologies, this analysis models the change in land cover from 2020 to 2032 and predicts population growth in the same period. The aim is to assist in ensuring future food security through strategies that take into account population dynamics and changes in agricultural land area, as well as providing a basis for effective policies in maintaining sustainable food supply in the region.</h2>
+               </div>
+            </div>
+         </section>
+         <section id="Works">
+         </section>
          <div class="relative z-0 flex-wrap justify-center px-4 p-6 gradient-background">
-            <div class="container mx-auto p-4">
-               <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-10 items-center">
-                  <div class="flex justify-center items-center bg-white rounded-3xl shadow-md border-gray-200 min-w-min">
-                     <div class="flex flex-col items-center p-6">
-                        <img class="flex mb-5 rounded-xl h-48 w-auto "  src="./images/kebakaran.jpg">
-                        <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">Indoesia Emas 2045</h2>
-                        <p class="text-green text-xl font-body text-center w-3/4">
-                           One of the pillars of Indonesia Emas Vision is sustainable economic development. There are several indicators that must be realized to establish this pillar, one of which is the consolidation of food security and the improvement of the welfare of farmers.
-                        </p>
+            
+       
+               <div class="container mx-auto p-4 mb-8">
+                  <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-10 items-center">
+                     <div class="flex justify-center items-center bg-white rounded-3xl shadow-md border-gray-200 min-w-min w-auto h-400">
+                        <div class="flex flex-col items-center p-6">
+                           <img class="flex mb-5 rounded-xl h-48 w-auto mb-4"  src="./images/emas2045.png">
+                           <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">Indoesia Emas 2045</h2>
+                           <p class="text-green text-xl font-body text-center w-3/4">
+                              One of the pillars is sustainable economic development. There are several indicators that must be realized to establish this pillar, one of which is the consolidation of food security and the improvement of the welfare of farmers.
+                           </p>
+                        </div>
                      </div>
-                  </div>
-                  <div class="flex justify-center items-center bg-white rounded-3xl shadow-md border-gray-200 min-w-min">
-                     <div class="flex flex-col items-center p-6">
-                        <img class="flex mb-5 rounded-xl h-48 w-auto"  src="./images/kekeringan.jpeg">
-                        <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">Deep Learning</h2>
-                        <p class="text-green text-xl font-body text-center w-3/4">
-                           The integration of deep learning and GIS analysis yields an assessment of land cover changes and population expansion in West Java, providing recommendations to policymakers in preventing food crises.
-                        </p>
+                     <div class="flex justify-center items-center bg-white rounded-3xl shadow-md border-gray-200 min-w-min w-auto h-400">
+                        <div class="flex flex-col items-center p-6">
+                           <img class="flex mb-5 rounded-xl h-48 w-auto mb-4"  src="./images/brain.png">
+                           <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">Deep Learning</h2>
+                           <p class="text-green text-xl font-body text-center w-3/4">
+                              The integration of deep learning and GIS analysis yields an assessment of land cover changes and population expansion in West Java, providing recommendations to policymakers in preventing food crises.
+                           </p>
+                        </div>
                      </div>
-                  </div>
-                  <div class="flex justify-center items-center bg-white  rounded-3xl shadow-md border-gray-200 min-w-min">
-                     <div class="flex flex-col items-center p-6">
-                        <img class="flex mb-5 rounded-xl h-48 w-auto"  src="./images/banjir.jpg">
-                        <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">WebGIS</h2>
-                        <p class="text-green text-xl font-body text-center w-3/4">
-                           This WebGIS serves as an information platform and collaboration hub between various parties to achieve food security in West Java, in line with the realization of Indonesia Emas Vision 2045.
-                        </p>
+                     <div class="flex justify-center items-center bg-white rounded-3xl shadow-md border-gray-200 min-w-min w-auto h-400">
+                        <div class="flex flex-col items-center p-6">
+                           <img class="flex mb-5 rounded-xl h-48 w-auto mb-4"  src="./images/webgis.png">
+                           <h2 class="text-2xl text-green font-heading mb-2 text-center font-bold">WebGIS</h2>
+                           <p class="text-green text-xl font-body text-center w-3/4">
+                              This WebGIS serves as an information platform and collaboration hub between various parties to achieve food security in West Java, in line with the realization of Indonesia Emas Vision 2045.
+                           </p>
+                        </div>
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="flex justify-center items-center p-4">
-            <h1 class="text-3xl font-bold font-heading text-green">The Models are Visualized on The Following Dashboard</h1>
-            </div>
-            <div class="flex justify-center items-center h-screen">
-               <iframe 
-                  class="w-4/5 h-4/5"
-                  frameborder="0" 
-                  style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
-                  src="https://dustinedw.maps.arcgis.com/apps/dashboards/ff94282d78b44eccabde556dab093413">
-               </iframe>
-            </div>
-            <div class="flex justify-center items-center">
-               <h2 class="text-xl font-heading w-1/2 text-white text-center">The 2020 and 2032 West Java food security map shows the food security status in each city in West Java in 2020 and 2032 along with the factors that influence it, such as changes in land cover and population expansion. To predict future food security, a fundamental factor to consider in calculating the food security index is the agricultural land area. </h2>
+   
+
+            <section id="Map">
+               <div class="flex justify-center items-center p-4">
+                  <h1 class="text-3xl font-bold font-heading text-green">The Models are Visualized on The Following Dashboard</h1>
+               </div>
+               
+               <div class="flex justify-center items-center h-screen">
+                  <iframe 
+                     class="w-4/5 h-4/5"
+                     frameborder="0" 
+                     style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
+                     src="https://dustinedw.maps.arcgis.com/apps/dashboards/ff94282d78b44eccabde556dab093413">
+                  </iframe>
+               </div>
+               <div class="flex justify-center items-center mb-8">
+                  <h2 class="text-xl font-heading w-1/2 text-white text-center">The 2020 and 2032 West Java food security map shows the food security status in each city in West Java in 2020 and 2032 along with the factors that influence it, such as changes in land cover and population expansion. To predict future food security, a fundamental factor to consider in calculating the food security index is the agricultural land area. </h2>
                </div>
 
-            <div class="flex justify-center items-center p-4">
-               <h1 class="text-3xl font-bold font-heading text-green text-center">Here is The Estimated Population Growth in Each City in West Java</h1>
+               <div class="flex justify-center items-center p-4">
+                  <h1 class="text-3xl font-bold font-heading text-green text-center">Here is The Estimated Population Growth in Each City in West Java</h1>
                </div>
-            <div class="flex justify-center items-center h-screen">
-               <iframe 
-                  class="w-4/5 h-4/5"
-                  frameborder="0" 
-                  style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
-                  src="https://dustinedw.maps.arcgis.com/apps/dashboards/6c166131559f4b1589b57116a79a0cd2">
-               </iframe>
-            </div>
-            <div class="flex justify-center items-center p-4">
-               <h1 class="text-3xl font-bold font-heading text-green text-center">Here are The Results of Calorie Availability in Each City in West Java</h1>
+               <div class="flex justify-center items-center h-screen">
+                  <iframe 
+                     class="w-4/5 h-4/5"
+                     frameborder="0" 
+                     style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
+                     src="https://dustinedw.maps.arcgis.com/apps/dashboards/6c166131559f4b1589b57116a79a0cd2">
+                  </iframe>
                </div>
-            <div class="flex justify-center items-center h-screen">
-               <iframe 
-                  class="w-4/5 h-4/5"
-                  frameborder="0" 
-                  style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
-                  src="https://dustinedw.maps.arcgis.com/apps/dashboards/3ba3f4a2c05141f3969b32023d9701b2">
-               </iframe>
-            </div>
-      
+
+               <div class="flex justify-center items-center p-4">
+                  <h1 class="text-3xl font-bold font-heading text-green text-center">Here are The Results of Calorie Availability in Each City in West Java</h1>
+               </div>
+               <div class="flex justify-center items-center h-screen">
+                  <iframe 
+                     class="w-4/5 h-4/5"
+                     frameborder="0" 
+                     style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;" 
+                     src="https://dustinedw.maps.arcgis.com/apps/dashboards/3ba3f4a2c05141f3969b32023d9701b2">
+                  </iframe>
+               </div>
+
                <div class="flex justify-center items-center p-4">
                   <h1 class="text-3xl font-bold font-heading text-green text-center">Here is The Agricultural Land Area Prediction in Each City in West Java</h1>
-                  </div>
+               </div>
                <div class="flex justify-center items-center h-screen">
                   <iframe 
                      class="w-4/5 h-4/5"
@@ -106,12 +119,14 @@
                      src="https://dustinedw.maps.arcgis.com/apps/dashboards/fbf36107c08f443bb88440d3bc9ae67a">
                   </iframe>
                </div>
-                         <div class="flex justify-center items-center">
+               <div class="flex justify-center items-center mb-8">
                   <h2 class="text-xl font-heading w-1/2 text-white text-center">This graph shows the number of calories available in each city in West Java as a result of the calories available based on the area of agricultural land cover minus the calories needed based on population size.</h2>
-                  </div>
-                  <div class="flex justify-center items-center p-4">
-                     <h2 class="text-xl font-heading w-1/2 text-white text-center">From this research, it is hoped that the government can formulate strategies and policies to prevent West Java from experiencing a food crisis. Additionally, identifying regions that can effectively distribute their harvest to areas in need will be crucial. By doing so, the aspirations outlined in the Vision of Indonesia Emas 2045 will not remain merely a vision.</h2>
-                     </div>
+               </div>
+
+               <div class="flex justify-center items-center p-4">
+                  <h2 class="text-xl font-heading w-1/2 text-white text-center">From this research, it is hoped that the government can formulate strategies and policies to prevent West Java from experiencing a food crisis. Additionally, identifying regions that can effectively distribute their harvest to areas in need will be crucial. By doing so, the aspirations outlined in the Vision of Indonesia Emas 2045 will not remain merely a vision.</h2>
+               </div>
+            </section>
          </div>
       </div>
    </body>
